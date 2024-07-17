@@ -1,36 +1,37 @@
-const logotext = "JOHN";
+const logotext = "AMINE";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Amine Berredjem",
+    description: "Je suis Amine Berredjem, data scientist et développeur full stack, actuellement basé à Berlin",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "Je suis Amine Berredjem",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "J'aime coder",
+        second: "Je code des sites web sympas",
+        third: "Je développe des applications mobiles",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "Passionné par la technologie et le développement, je m'efforce de créer des solutions innovantes et efficaces.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Un peu à propos de moi",
+    aboutme: "Je suis passionné par le développement de logiciels et la science des données. J'aime résoudre des problèmes complexes et travailler sur des projets innovants. Mon objectif est de créer des applications qui améliorent la vie des gens.",
 };
+
 const worktimeline = [{
-        jobtitle: "Designer of week",
+        jobtitle: "Designer de la semaine",
         where: "YAdfi",
         date: "2020",
     },
     {
-        jobtitle: "Designer of week",
+        jobtitle: "Designer de la semaine",
         where: "Jamalya",
         date: "2019",
     },
     {
-        jobtitle: "Designer of week",
+        jobtitle: "Designer de la semaine",
         where: "ALquds",
         date: "2019",
     },
@@ -41,7 +42,7 @@ const skills = [{
         value: 90,
     },
     {
-        name: "Djano",
+        name: "C#",
         value: 85,
     },
     {
@@ -53,94 +54,93 @@ const skills = [{
         value: 60,
     },
     {
-        name: "Jquery",
+        name: "Sql",
         value: 85,
     },
 ];
 
 const services = [{
         title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Je conçois des interfaces utilisateur intuitives et des expériences utilisateur engageantes.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Applications mobiles",
+        description: "Je développe des applications mobiles performantes et réactives.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Conception WordPress",
+        description: "Je crée des sites web WordPress personnalisés et faciles à gérer.",
     },
 ];
 
 const dataportfolio = [{
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "La sagesse de la vie consiste à éliminer l'essentiel.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "La sagesse de la vie consiste à éliminer l'essentiel.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "La sagesse de la vie consiste à éliminer l'essentiel.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "La sagesse de la vie consiste à éliminer l'essentiel.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "La sagesse de la vie consiste à éliminer l'essentiel.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "La sagesse de la vie consiste à éliminer l'essentiel.",
         link: "#",
     },
-
     {
         img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "La sagesse de la vie consiste à éliminer l'essentiel.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "La sagesse de la vie consiste à éliminer l'essentiel.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "La sagesse de la vie consiste à éliminer l'essentiel.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "La sagesse de la vie consiste à éliminer l'essentiel.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "La sagesse de la vie consiste à éliminer l'essentiel.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "La sagesse de la vie consiste à éliminer l'essentiel.",
         link: "#",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
+    YOUR_EMAIL: "amine.brj23@gmail.com",
+    YOUR_FONE: "(873)455-4537",
+    description: "N'hésitez pas à me contacter pour toute demande de collaboration ou de projet. Je suis toujours ouvert à de nouvelles opportunités.",
+    // créer un compte emailjs.com 
+    // consultez ce tutoriel https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
     YOUR_TEMPLATE_ID: "template_id",
     YOUR_USER_ID: "user_id",
@@ -152,6 +152,7 @@ const socialprofils = {
     linkedin: "https://linkedin.com",
     twitter: "https://twitter.com",
 };
+
 export {
     meta,
     dataabout,

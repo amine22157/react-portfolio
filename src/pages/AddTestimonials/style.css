@@ -1,0 +1,50 @@
+.testimonials-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+  .testimonials-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .testimonial-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .testimonial-form input,
+  .testimonial-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+  }
+  
+  .testimonial-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .testimonial-form button:hover {
+    background-color: var(--text-color);
+    color: var(--primary-color);
+  }
+  
